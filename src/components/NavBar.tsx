@@ -1,4 +1,5 @@
 import Link from "next/link";
+import  { FaGithub, FaLinkedin } from "react-icons/fa"
 import { useState } from "react";
 
 const Navbar = () => {
@@ -47,21 +48,24 @@ const Navbar = () => {
             <a
               target="_blank"
               href="https://linkedin.com/in/mattias-silva"
-              className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-light font-bold items-center justify-center hover:bg-deep hover:text-cristal "
+              className="sm:flex mx-3 rounded text-light items-center justify-center"
             >
-              Linkedin
+              <FaLinkedin size={30}/>
+              <span className="lg:hidden font-bold  px-3">Linkedin</span>
             </a>
             <a
-              href="/github"
-              className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white"
+              target="_blank"
+              href="https://github.com/Ma77i"
+              className="sm:flex mx-3 rounded text-light items-center justify-center"
             >
-              Github
+              <FaGithub size={30}/>
+              <span className="lg:hidden font-bold  px-3">GitHub</span>
             </a>
-            <Link href="/blog">
+            {/* <Link href="/blog">
               <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white">
                 Blog
               </a>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </nav>

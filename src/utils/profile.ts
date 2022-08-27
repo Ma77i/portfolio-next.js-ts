@@ -73,48 +73,61 @@ export const works: {
   image: string;
   name: string;
   description: string;
+  url: string;
+  repo: string;
   tools: Array<string>;
 }[] = [
   {
-    image: "https://picsum.photos/300/200",
+    image: "/biohack.png",
     name: "Biohacker",
     description: "website created for biohackerMX",
+    url: "https://biohackerMx.com",
+    repo: "https://github.com/Ma77i/FashionHunter",
     tools: ["HTML", "CSS", "BOOTSTRAP"],
   },
   {
-    image: "https://picsum.photos/300/200",
+    image: "/ecoderce.png",
     name: "Ecoderce",
     description: "Ecommerce created in fullstack course",
     tools: ["NODEJS", "EXPRESS", "MONGODB", "REACT", "PASSPORT"],
+    url: "https://ecoderce.herokuapp.com",
+    repo: "https://github.com/Ma77i/FashionHunter"
   },
   {
-    image: "https://picsum.photos/300/200",
-    name: "No More Plastic blog",
-    description: "Web created por No More Plastic ong",
-    tools: ["NEXTJS"],
-  },
-  {
-    image: "https://picsum.photos/300/200",
-    name: "Todoapp",
-    description: "Todo app created with react node and ts",
-    tools: ["NODEJS", "EXPRESS", "MONGODB", "REACT", "TYPESCRIPT"],
-  },
-  {
-    image: "https://picsum.photos/300/200",
-    name: "Fashion Hunter",
-    description: "social network created in NoCountry",
-    tools: ["NODEJS", "EXPRESS", "MONGODB"],
-  },
-  {
-    image: "https://picsum.photos/300/200",
+    image: "/calc.png",
     name: "Calculator",
     description: "Calculator created with Electron.js",
+    url: "",
+    repo: "https://github.com/Ma77i/FashionHunter",
     tools: ["ELECTRONJS"],
   },
+  // {
+  //   image: "https://picsum.photos/300/200",
+  //   name: "No More Plastic blog",
+  //   description: "Web created por No More Plastic ong",
+  // url: [""],
+  //   tools: ["NEXTJS"],
+  // },
+  // {
+  //   image: "https://picsum.photos/300/200",
+  //   name: "Todoapp",
+  //   description: "Todo app created with react node and ts",
+  // url: [""],
+  //   tools: ["NODEJS", "EXPRESS", "MONGODB", "REACT", "TYPESCRIPT"],
+  // },
   {
-    image: "https://picsum.photos/300/200",
-    name: "Chat app",
-    description: "Chatapp created with react node ts",
-    tools: ["NODEJS", "EXPRESS", "MONGODB", "REACT", "TYPESCRIPT"],
+    image: "/fhunter.png",
+    name: "Fashion Hunter",
+    description: "social network created in NoCountry",
+    url: "https://fashion-hunter-27637.web.app/login",
+    repo: "https://github.com/Ma77i/FashionHunter",
+    tools: ["NODEJS", "EXPRESS", "MONGODB"],
   },
+  // {
+  //   image: "https://picsum.photos/300/200",
+  //   name: "Chat app",
+  //   description: "Chatapp created with react node ts",
+  // url: "",
+  //   tools: ["NODEJS", "EXPRESS", "MONGODB", "REACT", "TYPESCRIPT"],
+  // },
 ];

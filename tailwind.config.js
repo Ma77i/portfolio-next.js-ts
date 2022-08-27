@@ -16,12 +16,13 @@ module.exports = {
       'black': '#000',
       'white': '#fff',
       'grey': '#808080',
-      //// NAVI THEME
-      // 'dark': '#1C3879',
-      // 'deep': '#607EAA',
-      // 'cristal': '#EAE3D2',
-      // 'pink': '#F806CC',
-      // 'light': '#F9F5EB',
+      // NAVI THEME
+      'dark': '#1C3879',
+      'deep': '#607EAA',
+      'cristal': '#EAE3D2',
+      'pink': '#F806CC',
+      'light': '#F9F5EB',
+
       //// NEON THEME
       // 'dark': '#2E0249',
       // 'deep': '#570A57',
@@ -29,11 +30,17 @@ module.exports = {
       // 'pink': '#F806CC',
       // 'light': '#E7F6F2',
 
-      //// TEAL THEME
-      'dark': '#2C3333',
-      'deep': '#395B64',
-      'cristal': '#A5C9CA',
-      'light': '#E7F6F2',
+      // // TEAL THEME
+      // 'dark': '#2C3333',
+      // 'deep': '#395B64',
+      // 'cristal': '#A5C9CA',
+      // 'light': '#E7F6F2',
+
+      // // LIGHT THEME
+      // 'dark': '#AAAAAA',
+      // 'deep': '#A4EBF3',
+      // 'cristal': '#CCF2F4',
+      // 'light': '#F4F9F9',
 
     },
     fontFamily: {
@@ -56,7 +63,7 @@ module.exports = {
         '4xl': '2rem',
       },
       boxShadow: {
-        '3xl': '-20px -20px 60px #252b2b, 20px 20px 60px #333b3b',
+        '3xl': '-20px -20px 60px #252b2b, 20px 20px 60px #1C3879',
         '5xl': '20px -20px 60px #c4d1ce, -20px 20px 60px #ffffff',
       }
     }

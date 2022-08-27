@@ -8,7 +8,7 @@ const Experience = () => {
       </h2>
         <ul className="flex flex-wrap py-5">
           {experience.map((exp) => (
-            <li key={exp.title} className="flex flex-col items-start mb-5 hover:text-deep">
+            <li key={exp.title} className="flex flex-col items-start mb-5 hover:text-dark">
               <h3 className="flex font-bold tracking-widest">
                 <span className="">💎</span>
                 {exp.title}

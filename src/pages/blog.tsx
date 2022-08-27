@@ -1,4 +1,5 @@
 import type { NextPage, GetStaticProps } from 'next'
+import Navbar from '../components/NavBar'
 
 // interface Props {
 //   cats: [];
@@ -9,6 +10,7 @@ import type { NextPage, GetStaticProps } from 'next'
 const Blogs: NextPage = ({  }) => {
     return (
       <div className='container h-screen bg-light'>
+        <Navbar />
         <h1 className="font-bold">
           Blog
         </h1>
