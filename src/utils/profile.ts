@@ -82,23 +82,23 @@ export const works: {
     name: "Biohacker",
     description: "website created for biohackerMX",
     url: "https://biohackerMx.com",
-    repo: "https://github.com/Ma77i/FashionHunter",
+    repo: "https://github.com/Ma77i/BiohackerMx",
     tools: ["HTML", "CSS", "BOOTSTRAP"],
   },
   {
     image: "/ecoderce.png",
     name: "Ecoderce",
     description: "Ecommerce created in fullstack course",
-    tools: ["NODEJS", "EXPRESS", "MONGODB", "REACT", "PASSPORT"],
+    tools: ["NODEJS", "EXPRESS", "MONGODB", "REACT"],
     url: "https://ecoderce.herokuapp.com",
-    repo: "https://github.com/Ma77i/FashionHunter"
+    repo: "https://github.com/Ma77i/ecoderce"
   },
   {
     image: "/calc.png",
     name: "Calculator",
     description: "Calculator created with Electron.js",
     url: "",
-    repo: "https://github.com/Ma77i/FashionHunter",
+    repo: "https://github.com/Ma77i/calculator-electronjs",
     tools: ["ELECTRONJS"],
   },
   // {
@@ -120,7 +120,7 @@ export const works: {
     name: "Fashion Hunter",
     description: "social network created in NoCountry",
     url: "https://fashion-hunter-27637.web.app/login",
-    repo: "https://github.com/Ma77i/FashionHunter",
+    repo: "https://github.com/Ma77i/fashionhunter-api",
     tools: ["NODEJS", "EXPRESS", "MONGODB"],
   },
   // {
