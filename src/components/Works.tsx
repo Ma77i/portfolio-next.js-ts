@@ -37,10 +37,10 @@ const Works = () => {
             </div>
             <div className="flex w-full">
               <div className="flex justify-start p-5 w-6/12">
-                {work.url && <a href={work.url} target="_blank" rel="noopener noreferrer" className="text-light border border-2 rounded-2xl px-5 mb-5">Site</a>}
+                {work.url && <a href={work.url} target="_blank" rel="noopener noreferrer" className="text-light border-2 border-cristal rounded-2xl px-5 pt-2 mb-5">Site</a>}
               </div>
               <div className="flex justify-end p-5 w-6/12">
-                <a href={work.repo} target="_blank" rel="noopener noreferrer" className="text-light border border-2 rounded-2xl px-5 mb-5">Repository</a>
+                <a href={work.repo} target="_blank" rel="noopener noreferrer" className="text-light border-2 border-cristal rounded-2xl px-5 pt-2 mb-5">Repository</a>
               </div>
             </div>
           </div>

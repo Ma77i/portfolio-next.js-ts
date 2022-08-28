@@ -47,13 +47,6 @@ module.exports = {
       sans: ['League Spartan', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
     },
-    neumorphismSize: {
-      xs: '0.05em',
-      sm: '0.1em',
-      default: '0.2em',
-      lg: '0.4em',
-      xl: '0.8em',
-    },
     extend: {
       spacing: {
         '128': '32rem',
